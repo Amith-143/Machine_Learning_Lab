@@ -10,12 +10,13 @@ The goal is to build a clear record of my learning, revisit important concepts, 
 - [Week 1: NumPy](#week-1-numpy)
 - [Week 2: Pandas](#week-2-pandas)
 - [Week 3: Data Preprocessing](#week-3-data-preprocessing)
+- [Week 4: Statistics & EDA](#week-4-statistics--eda)
 - [Learning Goals](#learning-goals)
 - [Future Updates](#future-updates)
 
 ## Repository Structure
 
-The repository is organized by week. Each weekly folder or notebook includes the completed Colab notes, examples, exercises, and practice projects covered during that week.
+The repository is organized by week. Each weekly folder or notebook includes the completed Colab notes, examples, exercises, and practice projects covered during that week's lab.
 
 ```text
 weekly-data-learning-notes/
@@ -25,6 +26,8 @@ weekly-data-learning-notes/
 │   └── completed_pandas_notes.ipynb
 ├── Week-03-Data-Preprocessing/
 │   └── completed_data_preprocessing_notes.ipynb
+├── Week-04-Statistics-EDA/
+│   └── completed_statistics_eda_notes.ipynb
 └── README.md
 ```
 
@@ -81,6 +84,42 @@ The Data Preprocessing lab includes practice with:
 
 The notebook also includes small practice exercises and mini-projects for **image preprocessing** and **text preprocessing**.
 
+## Week 4: Statistics & EDA
+
+The fourth week's completed notes focus on **Statistics and Exploratory Data Analysis (EDA)**. This lab focuses on using statistical methods and visualizations to understand datasets before building machine learning models.
+
+The Statistics & EDA lab includes practice with:
+
+- Descriptive statistics
+- Mean and median
+- Variance and standard deviation
+- Understanding data spread
+- Skewness and distribution shape
+- Interpreting positive, negative, and near-zero skewness
+- Visualizing distributions using histograms
+- Detecting potential outliers using boxplots
+- Understanding correlation between numerical variables
+- Interpreting positive, negative, and near-zero correlation
+- Understanding correlation strength
+- Distinguishing correlation from causation
+- Understanding non-linear relationships and why correlation may not detect them
+- Hypothesis testing
+- Comparing group means using a t-test
+- Understanding and interpreting p-values
+- Statistical significance and the 0.05 significance level
+- Understanding why statistical significance does not prove that a difference definitely does not exist
+- Computing and interpreting confidence intervals
+- Applying statistical analysis to image data
+- Calculating image brightness statistics
+- Correlation between image brightness and color-channel values
+- Understanding the limitations of statistical tests with very small image samples
+- Word-frequency analysis
+- Understanding Zipf's Law and right-skewed word-frequency distributions
+- Measuring vocabulary diversity using `diversity_ratio`
+- Comparing sentence length with unique-word counts
+
+The notebook also includes reflection questions and practice exercises designed to connect statistical analysis with **data preprocessing and machine learning**.
+
 ## Learning Goals
 
 Through these weekly notes and practice exercises, I am working to:
@@ -93,6 +132,10 @@ Through these weekly notes and practice exercises, I am working to:
 - Learn important data preprocessing techniques
 - Understand how categorical and numerical data are transformed
 - Practice preprocessing image and text data
+- Understand fundamental statistical concepts
+- Perform exploratory data analysis using statistics and visualizations
+- Interpret distributions, correlations, and statistical tests
+- Understand how statistical analysis supports machine learning decisions
 - Keep a portfolio of my completed learning work
 
 ## Future Updates
