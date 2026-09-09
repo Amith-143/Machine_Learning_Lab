@@ -1,6 +1,6 @@
 # Weekly Data Learning Notes
 
-This repository contains my completed weekly Google Colab notes and practice work as I learn Python tools for data analysis and machine learning. Each week, I will add the notebook I completed, along with the exercises and small projects from that week's lab.
+This repository contains my completed weekly Google Colab notes and practice work as I learn Python tools for data analysis and machine learning. Each week, I add the notebook I completed, along with the exercises and small projects covered in that week's lab.
 
 The goal is to build a clear record of my learning, revisit important concepts, and track my progress over time.
 
@@ -11,6 +11,7 @@ The goal is to build a clear record of my learning, revisit important concepts, 
 - [Week 2: Pandas](#week-2-pandas)
 - [Week 3: Data Preprocessing](#week-3-data-preprocessing)
 - [Week 4: Statistics & EDA](#week-4-statistics--eda)
+- [Week 5: Linear & Polynomial Regression](#week-5-linear--polynomial-regression)
 - [Learning Goals](#learning-goals)
 - [Future Updates](#future-updates)
 
@@ -28,6 +29,8 @@ weekly-data-learning-notes/
 │   └── completed_data_preprocessing_notes.ipynb
 ├── Week-04-Statistics-EDA/
 │   └── completed_statistics_eda_notes.ipynb
+├── Week-05-Linear-Polynomial-Regression/
+│   └── completed_linear_polynomial_regression_notes.ipynb
 └── README.md
 ```
 
@@ -107,7 +110,6 @@ The Statistics & EDA lab includes practice with:
 - Comparing group means using a t-test
 - Understanding and interpreting p-values
 - Statistical significance and the 0.05 significance level
-- Understanding why statistical significance does not prove that a difference definitely does not exist
 - Computing and interpreting confidence intervals
 - Applying statistical analysis to image data
 - Calculating image brightness statistics
@@ -119,6 +121,58 @@ The Statistics & EDA lab includes practice with:
 - Comparing sentence length with unique-word counts
 
 The notebook also includes reflection questions and practice exercises designed to connect statistical analysis with **data preprocessing and machine learning**.
+
+## Week 5: Linear & Polynomial Regression
+
+The fifth week's completed notes focus on **Linear Regression and Polynomial Regression**, including model evaluation, regularization, cross-validation, Gradient Descent, and regression diagnostics.
+
+The Linear & Polynomial Regression lab uses a **Cars24 used-car price dataset** to demonstrate how regression models can be built and evaluated step by step.
+
+The lab includes practice with:
+
+- Data preparation for regression
+- Encoding categorical variables using mean target encoding
+- Feature scaling
+- Train-test splitting
+- Simple Linear Regression
+- Multiple Linear Regression
+- Understanding coefficients and intercepts
+- Making predictions with regression models
+- R² score
+- Adjusted R²
+- Polynomial Regression
+- Polynomial features such as `x²`, `x³`, and higher degrees
+- Understanding polynomial degree
+- Underfitting
+- Overfitting
+- Bias-Variance tradeoff
+- Ridge Regression (L2 regularization)
+- Lasso Regression (L1 regularization)
+- Elastic Net regularization
+- Understanding regularization strength (`alpha`)
+- Hyperparameter tuning
+- Choosing polynomial degree and regularization strength
+- Train, validation, and test sets
+- Cross-Validation
+- K-Fold Cross-Validation
+- Implementing Linear Regression from scratch
+- Gradient Descent
+- Learning rate and iterations
+- Understanding why feature scaling improves Gradient Descent
+- Comparing `sklearn` and `statsmodels`
+- Ordinary Least Squares (OLS)
+- Regression coefficients and p-values
+- Confidence intervals
+- Checking Linear Regression assumptions
+- Multicollinearity
+- Variance Inflation Factor (VIF)
+- Residual analysis
+- Residual normality
+- Homoskedasticity
+- Heteroskedasticity
+- Goldfeld-Quandt test
+
+The notebook also includes small synthetic examples to demonstrate **polynomial regression and regularization**, allowing the effect of model complexity and overfitting to be observed clearly.
 
 ## Learning Goals
 
@@ -135,12 +189,20 @@ Through these weekly notes and practice exercises, I am working to:
 - Understand fundamental statistical concepts
 - Perform exploratory data analysis using statistics and visualizations
 - Interpret distributions, correlations, and statistical tests
+- Understand regression and prediction problems
+- Build and evaluate Linear Regression models
+- Understand Polynomial Regression and model complexity
+- Recognize underfitting and overfitting
+- Learn regularization techniques such as Ridge, Lasso, and Elastic Net
+- Understand Cross-Validation and model selection
+- Understand Gradient Descent and how regression works internally
+- Learn how to check Linear Regression assumptions
 - Understand how statistical analysis supports machine learning decisions
 - Keep a portfolio of my completed learning work
 
 ## Future Updates
 
-New completed Colab notebooks will be added each week as I continue learning. Future notes may cover additional Python, data analysis, visualization, machine learning, or related topics.
+New completed Colab notebooks will be added each week as I continue learning. Future notes may cover additional Python, data analysis, visualization, machine learning, deep learning, or related topics.
 
 ## How to Use This Repository
 
