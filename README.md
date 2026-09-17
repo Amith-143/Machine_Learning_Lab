@@ -38,9 +38,12 @@ weekly-data-learning-notes/
 ├── Week-07-KNN-Distance-Measures/
 │   └── completed_knn_distance_measures_notes.ipynb
 └── README.md
+
+
 Week 1: NumPy
 The first week's completed notes focus on NumPy. NumPy is a Python library used for working with arrays and numerical data.
 This notebook documents my practice and understanding of the NumPy material from the lab.
+
 Week 2: Pandas
 The second week's completed notes focus on Pandas, a Python library used for data manipulation and analysis.
 The notebook covers:
@@ -61,6 +64,7 @@ The notebook covers:
 - Image metadata mini-project
 - Word-frequency mini-project
 The exercises helped me understand how raw datasets can be explored, organized, transformed, and prepared for further analysis.
+
 Week 3: Data Preprocessing
 The third week's completed notes focus on Data Preprocessing.
 The notebook covers:
@@ -90,6 +94,7 @@ The notebook covers:
 - Image preprocessing mini-project
 - Text preprocessing mini-project
 This week helped me understand how raw data can be cleaned and transformed into a suitable format for machine learning models.
+
 Week 4: Statistics & EDA
 The fourth week's completed notes focus on Statistics and Exploratory Data Analysis (EDA).
 The notebook covers:
@@ -120,6 +125,7 @@ The notebook covers:
 - Number of unique words
 - Exploratory analysis of image and text data
 The reflection and practice work connected statistical analysis with data preprocessing and machine learning.
+
 Week 5: Linear & Polynomial Regression
 The fifth week's completed notes focus on Linear Regression, Polynomial Regression, Model Evaluation, and Regression Analysis.
 The notebook covers:
@@ -174,6 +180,7 @@ The notebook covers:
 - Goldfeld-Quandt test
 - Synthetic regression examples
 The exercises helped me understand how regression models are built, evaluated, improved, and interpreted.
+
 Week 6: Polynomial Regression & Regularization
 The sixth week's completed notes focus on Polynomial Regression, Regularization, Bias-Variance Tradeoff, and Hyperparameter Tuning.
 The notebook covers:
@@ -199,6 +206,7 @@ The notebook covers:
 - Hyperparameter tuning
 - Model generalization
 Synthetic examples were used to demonstrate how polynomial degree and regularization affect model complexity, bias, variance, underfitting, and overfitting.
+
 Week 7: KNN & Distance Measures
 The seventh week's completed notes focus on K-Nearest Neighbors (KNN), Distance Measures, Feature Scaling, and Classification.
 The notebook covers:
